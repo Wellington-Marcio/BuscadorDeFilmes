@@ -29,13 +29,13 @@ inputFilme.addEventListener('input', function () {
 
 // Função para limpar os dados exibidos na tela
 function limparDadosNaTela() {
-    resultado.classList.add('hide'); // Esconde o card de resultado
-    poster.src = ""; // Limpa o poster
-    diretor.textContent = ""; // Limpa o texto do diretor
-    ano.textContent = ""; // Limpa o ano
-    genero.textContent = ""; // Limpa o gênero
-    duracao.textContent = ""; // Limpa a duração
-    sinopse.textContent = ""; // Limpa a sinopse
+    resultado.classList.add('hide'); 
+    poster.src = ""; 
+    diretor.textContent = ""; 
+    ano.textContent = ""; 
+    genero.textContent = ""; 
+    duracao.textContent = ""; 
+    sinopse.textContent = ""; 
 }
 
 // Assíncrona
